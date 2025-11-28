@@ -12,7 +12,6 @@ class TestClass:
     def test_shopping(self, browser):
         my_shopping = Shopping(browser)
         my_shopping.shopping()
-
 """
         phone_names = browser.find_elements(By.XPATH, "//h4[@class='card-title']")
 
